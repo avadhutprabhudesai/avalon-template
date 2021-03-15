@@ -11,7 +11,16 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "cm": "cz"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint"
+    ],
+    "src/**/*scss": [
+      "stylelint"
+    ]
   },
   "repository": {
     "type": "git",
@@ -39,7 +48,9 @@
     "babel-loader": "^8.2.2",
     "babel-preset-minify": "^0.5.1",
     "clean-webpack-plugin": "^3.0.0",
+    "commitizen": "^4.2.3",
     "css-loader": "^5.1.1",
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.2",
@@ -70,5 +81,10 @@
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

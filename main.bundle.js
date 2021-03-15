@@ -1,1 +1,1 @@
-(()=>{var __webpack_modules__={579:()=>{eval("\n\n//# sourceURL=webpack://avalon-template/./src/index.js?")}},__webpack_exports__={};__webpack_modules__[579]()})();
+(()=>{"use strict";var __webpack_modules__={579:()=>{eval("\n\n//# sourceURL=webpack://avalon-template/./src/index.js?")}},__webpack_exports__={};__webpack_modules__[579]()})();

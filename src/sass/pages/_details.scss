@@ -4,7 +4,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-areas: 'offer offer description description description description';
 
-  @media (max-width: 991px) {
+  @media (max-width: $breakpoint-md) {
     grid-template-areas:
       'offer offer offer offer offer offer'
       'description description description description description description';
@@ -44,7 +44,7 @@
     background-color: $color-gallery;
     padding: 5rem 4rem;
 
-    @media (max-width: 991px) {
+    @media (max-width: $breakpoint-md) {
       grid-row-gap: 5rem;
       justify-items: center;
       grid-template-areas:
@@ -59,7 +59,7 @@
     display: grid;
     grid-gap: $gutter-lg;
 
-    @media (max-width: 991px) {
+    @media (max-width: $breakpoint-md) {
       justify-items: center;
       text-align: center;
     }
@@ -101,7 +101,7 @@
     border-radius: 3rem;
     padding: 1.5rem 2rem;
 
-    @media (max-width: 991px) {
+    @media (max-width: $breakpoint-md) {
       justify-self: center;
     }
   }

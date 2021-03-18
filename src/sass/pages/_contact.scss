@@ -1,10 +1,10 @@
 .contact {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: $gutter-sm;
   grid-template-columns: 2fr 1fr;
   grid-auto-rows: minmax(40rem, auto);
 
-  @media (max-width: 768px) {
+  @media (max-width: $breakpoint-sm) {
     grid-template-columns: 1fr;
   }
 
@@ -20,10 +20,10 @@
       'name email subject'
       'message message message'
       'send . .';
-    grid-gap: 3rem;
+    grid-gap: $gutter-md;
     padding: 8rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-sm) {
       padding: 3rem;
       grid-template-areas:
         'name name name'
@@ -39,7 +39,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: $gutter-sm;
     place-items: center;
     align-content: center;
   }

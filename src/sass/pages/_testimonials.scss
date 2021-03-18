@@ -1,9 +1,9 @@
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1.75fr;
-  grid-gap: 1rem;
+  grid-gap: $gutter-xs;
 
-  @media (max-width: 991px) {
+  @media (max-width: $breakpoint-md) {
     grid-template-columns: 1fr;
   }
 
@@ -21,7 +21,7 @@
   }
   &__item {
     display: grid;
-    grid-gap: 5rem;
+    grid-gap: $gutter-xl;
     grid-template-columns: 70%;
     min-height: 50rem;
     padding: 3rem 6rem;
@@ -38,7 +38,7 @@
   }
   &__profile {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: $gutter-xs;
   }
   &__designation {
     font-size: $font-size-sub-text;

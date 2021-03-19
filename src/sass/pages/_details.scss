@@ -20,14 +20,6 @@
     background-size: cover;
     min-height: 55rem;
   }
-  &__offer-icon {
-    display: grid;
-    place-items: center;
-    border: 1px solid $color-white;
-    border-radius: 50%;
-    width: 14rem;
-    height: 14rem;
-  }
   &__offer-text {
     color: $font-color-bright;
     text-transform: uppercase;
@@ -94,12 +86,6 @@
   &__more {
     justify-self: start;
     background-color: $color-blush;
-    text-transform: uppercase;
-    color: $color-white;
-    font-size: $font-size-sub-text;
-    font-weight: 700;
-    border-radius: 3rem;
-    padding: 1.5rem 2rem;
 
     @media (max-width: $breakpoint-md) {
       justify-self: center;

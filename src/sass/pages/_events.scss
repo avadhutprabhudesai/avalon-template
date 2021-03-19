@@ -114,14 +114,8 @@
   }
   &__action {
     grid-area: action;
-    text-transform: uppercase;
     background: $color-white;
     color: $font-color-heading;
-    font-size: $font-size-sub-text;
-    font-weight: 700;
-    border-radius: 3rem;
-    padding: 1.5rem 2rem;
-    cursor: pointer;
     transition: all 0.6s;
 
     &:hover {

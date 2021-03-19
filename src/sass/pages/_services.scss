@@ -26,70 +26,27 @@
     font-weight: 700;
     text-transform: uppercase;
   }
-  &__icon {
-    display: grid;
-    place-items: center;
-    border: 1px solid $color-white;
-    border-radius: 50%;
-    width: 14rem;
-    height: 14rem;
+  &__card {
+    &--1 {
+      background-color: $color-casablanca-trans;
+    }
+    &--2 {
+      background-color: $color-sandy-brown-ttans;
+    }
+    &--3 {
+      background-color: $color-blush-trans;
+    }
+    &--4 {
+      background-color: $color-burnt-sienna-trans;
+    }
   }
   &__front {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-gap: $gutter-sm;
-    place-content: center;
-    justify-items: center;
-    text-align: center;
-    transition: all 0.8s;
     transform: rotateY(0deg);
-    backface-visibility: hidden;
-
-    &--1 {
-      background-color: $color-casablanca-trans;
-    }
-    &--2 {
-      background-color: $color-sandy-brown-ttans;
-    }
-    &--3 {
-      background-color: $color-blush-trans;
-    }
-    &--4 {
-      background-color: $color-burnt-sienna-trans;
-    }
   }
   &__back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    padding: $gutter-md;
     font-size: $font-size-sub-text;
-    color: $font-color-bright;
     font-weight: 300;
-    transition: all 0.8s;
     transform: rotateY(180deg);
-    backface-visibility: hidden;
-
-    &--1 {
-      background-color: $color-casablanca-trans;
-    }
-    &--2 {
-      background-color: $color-sandy-brown-ttans;
-    }
-    &--3 {
-      background-color: $color-blush-trans;
-    }
-    &--4 {
-      background-color: $color-burnt-sienna-trans;
-    }
   }
 
   &__item:hover &__front {

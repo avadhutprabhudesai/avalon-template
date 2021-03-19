@@ -46,15 +46,6 @@
     font-weight: 300;
     color: $color-white;
   }
-  &__more {
-    color: $color-white;
-    font-size: $font-size-sub-text;
-    font-weight: 700;
-    border: 1px solid $color-white;
-    border-radius: 3rem;
-    padding: 1.5rem 2rem;
-    text-transform: uppercase;
-  }
   &__campaign {
     display: grid;
     grid-gap: $gutter-md;

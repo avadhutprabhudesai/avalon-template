@@ -99,12 +99,7 @@
   &__button {
     grid-area: send;
     justify-self: start;
-    padding: 1.5rem 2rem;
-    border-radius: 3rem;
     background-color: $color-sandy-brown;
-    color: $font-color-bright;
-    text-transform: uppercase;
-    font-size: $font-size-sub-text;
-    font-weight: 700;
+    border: 0;
   }
 }
